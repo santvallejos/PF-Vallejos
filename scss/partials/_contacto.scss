@@ -1,0 +1,24 @@
+.contacto{
+    background-image: url(../img/locall.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 37px;
+    }
+
+    h2, p{
+        font-size: 30px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}

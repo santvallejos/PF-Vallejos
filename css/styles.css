@@ -5,23 +5,13 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: white;
+  background-color: #EDE0D4;
   margin: 0;
 }
 
 img {
   max-width: 100%;
   width: 100%;
-}
-
-header {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 3rem;
-  position: sticky;
-  top: 0;
 }
 
 ul {
@@ -47,6 +37,16 @@ p {
 h3 {
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -107,15 +107,8 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-
-.nosotrosIndex {
-  background-color: #ff6a5c;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: background-color 0.2s ease;
+.text-container p {
+  text-align: center;
 }
 
 footer {
@@ -123,10 +116,166 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: white;
 }
 
 .icono-redes, .whatsapp {
   width: 40px;
+}
+
+.estiloMenu {
+  background-color: black;
+}
+.estiloMenu h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 37px;
+}
+.estiloMenu div {
+  padding: 15px;
+}
+.estiloMenu img {
+  width: 400px;
+  height: 400px;
+}
+.estiloMenu h2 {
+  color: white;
+  text-align: center;
+}
+
+.reserva {
+  background-image: url("../img/reserva.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 0;
+  padding: 5rem;
+  background-image: url("../img/background-reserva.jpg");
+  background-size: cover;
+  color: white;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=time],
+input[type=number] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #222;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+button[type=submit],
+button[type=reset] {
+  background-color: #fff;
+  color: #222;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button[type=submit]:hover,
+button[type=reset]:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Estilos para el mapa */
+iframe {
+  margin-top: 20px;
+  border: none;
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para la imagen */
+.local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.local img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para el contenido */
+.local main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacto {
+  background-image: url(../img/locall.jpg);
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  margin: auto;
+}
+.contacto h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 37px;
+}
+.contacto h2, .contacto p {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
