@@ -7,18 +7,21 @@
     height: 600px;
     width: 100%;
     margin: auto;
+
     h1 {
         color: white;
         display: flex;
         justify-content: center;
-        padding: 15px;
+        padding: 20px;
         font-size: 37px;
     }
 
     h2, p{
+        text-shadow: 5px 1px 3px black;
         font-size: 30px;
         color: white;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 }

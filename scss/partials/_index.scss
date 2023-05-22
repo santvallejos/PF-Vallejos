@@ -8,16 +8,18 @@
     width: 100%;
     margin: auto;
     h1{
+        text-shadow: 0px 5px 7px rgb(255, 255, 255);
         padding: 180px;
         display: flex;
         justify-content: center;
         font-size: 70px;
     
-        background: #ccc;
-        background: linear-gradient(90deg, #000000, #564c4c);
+        background: #000000;
+        background: linear-gradient(90deg, #ffffff, #ffffff);
     
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+
     }
 }
 
