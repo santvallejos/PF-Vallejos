@@ -145,6 +145,10 @@ footer {
   color: white;
   text-align: center;
 }
+.estiloMenu p {
+  color: #E6CCB2;
+  text-align: center;
+}
 
 .reserva {
   background-image: url("../img/reserva.jpg");
