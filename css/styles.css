@@ -72,7 +72,7 @@ header {
   justify-content: center;
   font-size: 70px;
   background: #000000;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5411764706), rgba(0, 0, 0, 0.4745098039));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6784313725), rgba(0, 0, 0, 0.6784313725));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
