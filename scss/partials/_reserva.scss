@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: center;
     form {
+        display: flex;
+        justify-content: center;
         margin: 2rem 0;
         padding: 2rem;
         background-image: url('../img/background-reserva.jpg');
@@ -44,22 +46,19 @@ input[type="number"] {
 }
 
 .botones {
-    display: flex;
-    justify-content: center;
     margin-top: 2rem;
-
 
     button[type="submit"],
     button[type="reset"] {
-    background-color: #fff;
-    color: #222;
-    border: none;
-    border-radius: 0.3rem;
-    padding: 0.8rem 1rem;
-    font-size: 1.2rem;
-    margin-right: 1rem;
-    transition: background-color 0.3s ease-in-out;
-    cursor: pointer;
+        background-color: #fff;
+        color: #222;
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.8rem 1rem;
+        font-size: 1.2rem;
+        margin-right: 1rem;
+        transition: background-color 0.3s ease-in-out;
+        cursor: pointer;
     }
 
     button[type="submit"]:hover,
