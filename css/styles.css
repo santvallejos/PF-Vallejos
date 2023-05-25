@@ -100,6 +100,8 @@ header {
   height: auto;
   display: block;
   padding: 5px;
+  width: 200px;
+  height: 300px;
 }
 
 .text-container {
